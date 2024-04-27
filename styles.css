@@ -1,3 +1,6 @@
-fieldset {
+.gallery {
     background-color: red;
+}
+.text {
+    background-color: grey;
 }
