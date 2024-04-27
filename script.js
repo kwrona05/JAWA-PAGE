@@ -1,2 +1,5 @@
-const button = document.getElementById('gallery');
-button.onClick = 
+
+document.getElementById('gallery').addEventListener('click', goGallery)
+function goGallery() {
+    window.location.href = "gallery.html"
+}
