@@ -1,6 +1,23 @@
 .gallery {
     background-color: red;
+    width: 1100px;
+    height: 400px;
 }
 .text {
     background-color: grey;
+    display: inline;
+    width: 280px;
+    height: 360px;
+    justify-content: center;
+}
+.info {
+    background-color: grey;
+    width: 280px;
+    height: 360px;
+    justify-content: center;
+    display: flex;
+}
+.container {
+    display: flex;
+    justify-content: center;
 }
