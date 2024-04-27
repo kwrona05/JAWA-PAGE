@@ -1,3 +1,17 @@
 body {
     background-color: grey;
 }
+.logo {
+    width: 70px;
+    height: 50px;
+    rotate: -90deg;
+}
+.header {
+    width: 100px;
+    height:80px; 
+    display: block;
+}
+img {
+    width: 280px;
+    height: 190px;
+}
