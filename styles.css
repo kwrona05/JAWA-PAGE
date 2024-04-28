@@ -2,22 +2,29 @@
     background-color: red;
     width: 1100px;
     height: 400px;
+    display: flex;
+    justify-content: center;
+    
 }
 .text {
     background-color: grey;
     display: inline;
-    width: 280px;
-    height: 360px;
+    width: 336px;
+    height: 400px;
     justify-content: center;
 }
 .info {
     background-color: grey;
-    width: 280px;
-    height: 360px;
+    width: 1100px;
+    height: 400px;
     justify-content: center;
     display: flex;
 }
 .container {
+    display: flex;
+    justify-content: center;
+}
+.blog {
     display: flex;
     justify-content: center;
 }
