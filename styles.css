@@ -17,8 +17,6 @@
     background-color: grey;
     width: 1100px;
     height: 400px;
-    justify-content: center;
-    display: flex;
 }
 .container {
     display: flex;
@@ -31,4 +29,32 @@
 .logo {
     display: flex;
     justify-content: center;
+}
+.jawalogo {
+    width: 400px;
+    height: 300px;
+    rotate: -90deg;
+}
+.testdrive {
+    width: 400px;
+    height: 280px;
+    float: left;
+    margin-left: 100px;
+}
+.photo {
+    width: 100px;
+    height: 80px;
+}
+h1 {
+    text-align: center;
+}
+.driveKontakt {
+   float: right;
+   margin-right: 100px;
+   font-size: 26px;
+}
+.readMore {
+    float: right;
+    margin-right: 360px;
+    margin-top: 80px;
 }
