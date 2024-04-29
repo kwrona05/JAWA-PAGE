@@ -64,3 +64,8 @@ h1 {
     height: 400px;
     border: 0;
 }
+.picture {
+    width: 220px;
+    height: 160px;
+    margin-left: 60px;
+}
