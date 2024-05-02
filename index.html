@@ -1,55 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <title>Zajawka.cz</title>
-    </head>
-    <body>
-        <main>
-            <div class="logo">
-                <img src="logo.png" alt="logo JAWA" class="jawalogo">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Zajawka.cz</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="section">
+                <img src="./images/logo.png" alt="logo JAWA" class="jawalogo">
             </div>
-            <div class="container">
+            <div class="section">
                 <div class="gallery">
-                    <fieldset class="mini">
-                    <img src="motor.jpg" alt="Motocykl JAWA" class="photo">
-                    <img src="original.JPG" alt="Motocykl JAWA" class="photo">
-                    <img src="JAWA.JPG" alt="Motocykl JAWA" class="photo">
-                    </fieldset>
+                    <div class="mini">
+                        <img src="./images/motor.jpg" alt="Motocykl JAWA" class="photo">
+                        <img src="./images/original.JPG" alt="Motocykl JAWA" class="photo">
+                        <img src="./images/JAWA.JPG" alt="Motocykl JAWA" class="photo">
+                    </div>
                     <button id="gallery" type="button" class="button">Show more</button>
                 </div>
             </div>
             <hr>
-            <div class="container">
+            <div class="section">
                 <div class="info">
-                <h1>JAZDY PRÓBNE</h1>
-                <img src="testdrive.jpg" alt="motor" class="testdrive"> <p class="driveKontakt">Chcesz się umówić na jazdę próbną?<br>Nie chcesz kupować kota w worku?<br>Zapraszamy do kontaktu: tel:536 012 996</p>
-                <button type="button" id="readMore" class="readMore">Czytaj więcej</button>
+                    <h1>JAZDY PRÓBNE</h1>
+                    <div class="info-section">
+                        <div class="info-tile">
+                            <img src="./images/testdrive.jpg" alt="motor" class="testdrive">
+                        </div>
+                        <div class="info-tile">
+                            <p class="driveKontakt">
+                                Chcesz się umówić na jazdę próbną?
+                                <br>
+                                Nie chcesz kupować kota w worku?
+                                <br>
+                                Zapraszamy do kontaktu: tel:536 012 996
+                            </p>
+                            <button type="button" id="readMore" class="readMore">Czytaj więcej</button>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
             <hr>
-            <div class="blog">
-                <fieldset class="text"><h2>Weź Jawę i na kawę</h2><img src="kawa jawa.png" alt="Weź Jawę i na kawę" class="picture"><p class="kawa">Już po majówce zapraszamy do naszego salonu na motocyklową kawę</p><a href="blog.html">Czytaj więcej</a></fieldset>
-                <fieldset class="text"><h2>Otwarcie sezonu moto we WRO</h2><img src="otwarcie sezone.jpeg" alt="historie" class="picture"><p class="blogtekst">W trakcie imprezy Moto-Rozrusznik 2024 w Centrum Kultury Zajezdnia przy</p><a href="blog.html">Czytaj więcej</a></fieldset>
-                <fieldset class="text"><h2>Mikro Wyprawy Jawy cz.1</h2><img src="wyprawy.png" alt="Historia wypraw cz.1" class="picture"><p>Startujemy koło Centrum Korona następnie przez Łozinę kierujemy się do...</p><a href="blog.html">Czytaj więcej</a></fieldset>
+            <div class="section">
+                <fieldset class="tile">
+                    <h2>Weź Jawę i na kawę</h2><img src="./images/kawa jawa.png" alt="Weź Jawę i na kawę"
+                        class="picture">
+                    <p class="kawa">Już po majówce zapraszamy do naszego salonu na motocyklową kawę</p><a
+                        href="blog.html">Czytaj więcej</a>
+                </fieldset>
+                <fieldset class="tile">
+                    <h2>Otwarcie sezonu moto we WRO</h2><img src="./images/otwarcie sezone.jpeg" alt="historie"
+                        class="picture">
+                    <p class="blogtekst">W trakcie imprezy Moto-Rozrusznik 2024 w Centrum Kultury Zajezdnia przy</p><a
+                        href="blog.html">Czytaj więcej</a>
+                </fieldset>
+                <fieldset class="tile">
+                    <h2>Mikro Wyprawy Jawy cz.1</h2><img src="./images/wyprawy.png" alt="Historia wypraw cz.1"
+                        class="picture">
+                    <p>Startujemy koło Centrum Korona następnie przez Łozinę kierujemy się do...</p><a
+                        href="blog.html">Czytaj więcej</a>
+                </fieldset>
             </div>
-            <hr>
-            <div class="stopka">
-                <div class="kontakt">
-                    <p id="location"><i class="fa-solid fa-location-crosshairs"></i>51-361 Wilczyce, Sportowa 23</p>
-                    <p><i class="fa-solid fa-message"></i>kontakt@zajawka.cz</p>
-                    <p><i class="fa-solid fa-phone"></i>536 012 996</p>
-                    </div>
+        </div>
+        <hr>
+        <div class="stopka">
+            <div class="kontakt">
+                <p id="location"><i class="fa-solid fa-location-crosshairs"></i>51-361 Wilczyce, Sportowa 23</p>
+                <p><i class="fa-solid fa-message"></i>kontakt@zajawka.cz</p>
+                <p><i class="fa-solid fa-phone"></i>536 012 996</p>
+            </div>
             <div class="social">
-                <a href="https://www.tiktok.com/@doktor.jawa?_t=8lErccf6whl&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.tiktok.com/@doktor.jawa?_t=8lErccf6whl&_r=1"><i
+                        class="fa-brands fa-tiktok"></i></a>
                 <a href="https://www.youtube.com/@ZaJAWkA_CZ/featured"><i class="fa-brands fa-youtube"></i></a>
                 <a href="https://www.instagram.com/zajawka.cz/"><i class="fa-brands fa-square-instagram"></i></a>
             </div>
-            </div>
-                </main>
-        <script src="./script.js"></script>
-    </body>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
 </html>

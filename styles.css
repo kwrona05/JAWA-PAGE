@@ -1,69 +1,83 @@
+html, * {
+    box-sizing: border-box;
+}
+
 .gallery {
     background-color: #8B0000;
     width: 1100px;
-    height: 400px;
     display: flex;
     justify-content: center;
     
 }
-.text {
+.tile {
     background-color: grey;
     display: inline;
-    width: 336px;
-    height: 400px;
+    width: 33%;
+    /* height: 400px; */
     justify-content: center;
 }
+
+/* info section */
 .info {
     background-color: grey;
     width: 1100px;
-    height: 400px;
+    padding-bottom: 45px;
 }
+.info-section {
+    display: flex;
+}
+.info-tile {
+    width: 50%
+}
+.testdrive {
+    height: 280px;
+    margin-left: 100px;
+
+    @media only screen and (max-width: 1120px) {
+        height: 200px;
+    }
+}
+.driveKontakt {
+    font-size: 26px;
+    padding-left: 10%;
+
+    @media only screen and (max-width: 1120px) {
+        font-size: 20px;
+    }
+ }
+
+ .readMore {
+    display: block;
+    margin: 0 auto;
+}
+
 .container {
+    width: 1100px;
+    margin: 0 auto;
+
+    @media only screen and (max-width: 1120px) {
+        width: 900px;
+    }
+}
+.section {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
-.blog {
-    display: flex;
-    justify-content: center;
-}
-.logo {
-    display: flex;
-    justify-content: center;
-}
+
 .jawalogo {
     width: 400px;
     height: 300px;
     rotate: -90deg;
 }
-.testdrive {
-    width: 400px;
-    height: 280px;
-    float: left;
-    margin-left: 100px;
-}
+
 .photo {
-    width: 330px;
-    height: 220px;
-    margin-top: 80px;
+    width: 33%;
 }
 h1 {
     text-align: center;
 }
-.driveKontakt {
-   float: right;
-   margin-right: 100px;
-   font-size: 26px;
-}
-.readMore {
-    float: right;
-    margin-right: 360px;
-    margin-top: 80px;
-}
-.mini {
-    width: 1100px;
-    height: 400px;
-    border: 0;
-}
+
 .picture {
     width: 220px;
     height: 160px;
