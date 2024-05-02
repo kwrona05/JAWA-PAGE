@@ -9,6 +9,9 @@ html, * {
     justify-content: center;
     
 }
+body {
+    background-color: #8B0000;
+}
 .tile {
     background-color: grey;
     display: inline;
