@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #8B0000;
+}
+.container {
+    width: 97%;
+    margin: 0 auto;
+    padding-left: 100px;
+}
+.tile {
+    width: 90%;
+}
+p {
+    display: flex;
+}
