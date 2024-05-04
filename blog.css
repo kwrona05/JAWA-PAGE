@@ -15,3 +15,6 @@ body {
 p {
     display: flex;
 }
+.youtube {
+    width: 90%;
+}
