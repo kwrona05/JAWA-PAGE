@@ -11,6 +11,7 @@ body {
 }
 .tile {
     width: 90%;
+    border: 1px solid black;
 }
 p {
     display: flex;
